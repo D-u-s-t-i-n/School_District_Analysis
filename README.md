@@ -4,10 +4,10 @@ The code is divided into two sections - the Module 4 original data and the Modul
 # Challenge Questions:
 After replacing the reading and math scores, answer the following questions:
 ## 1. How is the district summary affected?
-  - The average math scores went down from 79.0 to 78.9. 
-  - The average reading scores remained fixed at 81.9.
+  - The average math scores went down from 78.99 to 78.93. 
+  - The average reading scores went down from 81.88 to 81.86.
   - % passing math went down from 75% to 74%.
-  - % passing reading remaiend fixed at 86%.
+  - % passing reading went down from 86% to 85%.
   - Overall passing went down from 65% to 64%.
 
 ## 2. How is the school summary affected?
@@ -32,3 +32,5 @@ After replacing the reading and math scores, answer the following questions:
     - After the Thomas High 9th grade score removal, those values went down to 83.465, 83.902, 90%, 93%, and 87% respectively.
     - District schools remained unchanged at 76.957, 80.967, 67%, 81%, and 54%.
     
+# Challenge Notes:
+The scores with the Thomas High 9th graders omitted had very little impact (0.02%) on the average math and reading scores. Changing the scores to NaN rather than dropping the 9th graders had a severe impact on the overall pass % and school ranking with respect to its size, budget, and type (district vs charter). This decrease in school ranking may be somewhat justified if the whole 9th grade class was in fact cheating. Otherwise, it seems too harsh of a penalty in school ranking based on "discovered that the score averages for ninth graders from one high school are incorrect". I would advise Maria and her superiors to either include the 9th grade Thomas High scores, or drop them completely such that their scores do not impact the overall %. The median test scores for all schools including Thomas High did not exhibit any skew with respect to average.
