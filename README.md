@@ -3,21 +3,21 @@ The code is divided into two sections - the Module 4 original data and the Modul
 
 # Challenge Questions:
 After replacing the reading and math scores, answer the following questions:
-1. How is the district summary affected?
+##1. How is the district summary affected?
   - The average math scores went down from 79.0 to 78.9. 
   - The average reading scores remained fixed at 81.9.
   - % passing math went down from 75% to 74%.
   - % passing reading remaiend fixed at 86%.
   - Overall passing went down from 65% to 64%.
 
-1. How is the school summary affected?
+##2. How is the school summary affected?
   - The average math and reading scores are mostly unchanged for the top 5 (~83%). 
   
-3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
+##3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
   - The 9th grade studentsOriginally, Thomas High School was the 2nd top school with overall passing 90.95%.
   - After removing the 9th grade students from the passing %, Thomas High School is the 8th ranked school with overall passing 65.08%.
   
-4. How does replacing the ninth-grade scores affect the Math and Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type? 
+##4. How does replacing the ninth-grade scores affect the Math and Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type? 
   - Math and Reading Scores by Grade:
     - The scores for each grade only affect Thomas High's 9th graders, which is now NaN since they are all omitted.
   - Scores by School Spending:
