@@ -4,11 +4,11 @@ The code is divided into two sections - the Module 4 original data and the Modul
 # Challenge Questions:
 After replacing the reading and math scores, answer the following questions:
 1. How is the district summary affected?
-  The average math scores went down from 79.0 to 78.9. 
-  The average reading scores remained fixed at 81.9.
-  % passing math went down from 75% to 74%.
-  % passing reading remaiend fixed at 86%.
-  Overall passing went down from 65% to 64%.
+  - The average math scores went down from 79.0 to 78.9. 
+  - The average reading scores remained fixed at 81.9.
+  - % passing math went down from 75% to 74%.
+  - % passing reading remaiend fixed at 86%.
+  - Overall passing went down from 65% to 64%.
 
 2. How is the school summary affected?
   The average math and reading scores are mostly unchanged for the top 5 (~83%). 
