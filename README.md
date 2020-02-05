@@ -10,7 +10,7 @@ After replacing the reading and math scores, answer the following questions:
   - % passing reading remaiend fixed at 86%.
   - Overall passing went down from 65% to 64%.
 
-2. How is the school summary affected?
+1. How is the school summary affected?
   - The average math and reading scores are mostly unchanged for the top 5 (~83%). 
   
 3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
